@@ -1,0 +1,25 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:m="urn:import:gwt.material.design.client.ui">
+	<ui:style>
+	
+	</ui:style>
+	<m:MaterialPanel>
+        <m:MaterialHeader ui:field="header">
+            <m:MaterialNavBar activates="sidenavPush" backgroundColor="ORANGE_DARKEN_4" shadow="1">
+                <m:MaterialNavBrand paddingLeft="60" text="NUTSHELL" />
+            </m:MaterialNavBar>
+        </m:MaterialHeader>
+
+        <m:MaterialSideNavPush m:id="sidenavPush" ui:field="sideNav" width="300">
+            <m:MaterialLink iconType="ACCOUNT_BALANCE" text="Events"/>
+            <m:MaterialLink ui:field="l1" iconType="BORDER_COLOR" text="Register"/>
+            <m:MaterialLink ui:field="l2" iconType="PERSON" text="Login"/>
+            <m:MaterialLink ui:field="l3" iconType="NOTE_ADD" text="Add News"/>
+            <m:MaterialLink ui:field="l4" iconType="NOTE_ADD" text="Create Short News"/>
+            <m:MaterialLink ui:field="c" iconType="VISIBILITY" text="Categories View"/>
+            <m:MaterialLink iconType="BOOKMARK" text="Bookmarks"/>
+        </m:MaterialSideNavPush>
+    </m:MaterialPanel>
+</ui:UiBinder> 

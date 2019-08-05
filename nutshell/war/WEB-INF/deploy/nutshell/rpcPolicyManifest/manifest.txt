@@ -1,0 +1,3 @@
+# Module nutshell
+# RPC service class, partial path of RPC policy file
+com.nutshell.client.GreetingService, 5B3F872C14475EC9863FA2B75C554D9B.gwt.rpc

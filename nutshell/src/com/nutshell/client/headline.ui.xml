@@ -1,0 +1,37 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:m="urn:import:gwt.material.design.client.ui"
+    xmlns:m.html="urn:import:gwt.material.design.client.ui.html">
+
+
+	<g:VerticalPanel>
+	<m:MaterialPanel textAlign="LEFT" paddingLeft="300" paddingRight="300" paddingTop="50">
+	<m:MaterialListBox grid="s10" ui:field="category">
+		<m.html:Option text="sports" />
+		<m.html:Option text="business" />
+		<m.html:Option text="politics" />
+		<m.html:Option text="entertainment" />
+		<m.html:Option text="social" />
+		<m.html:Option text="international" />
+		<m.html:Option text="technology" />
+		<m.html:Option text="fashion" />
+		<m.html:Option text="travel" />
+		<m.html:Option text="hatke" />
+	</m:MaterialListBox>
+	</m:MaterialPanel>
+	<m:MaterialPanel textAlign="LEFT" paddingLeft="300" paddingRight="300" >
+		<m:MaterialButton ui:field="b2"
+			text="Select Headlines" />
+		<m:MaterialCollection ui:field="t1">
+		</m:MaterialCollection>
+	</m:MaterialPanel>
+</g:VerticalPanel>
+      
+     
+     
+     
+     
+     
+     
+</ui:UiBinder> 

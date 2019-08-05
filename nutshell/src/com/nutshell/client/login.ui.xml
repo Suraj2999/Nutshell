@@ -1,0 +1,28 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:m="urn:import:gwt.material.design.client.ui">
+
+<g:HTMLPanel>
+	<m:MaterialPanel textAlign="CENTER">
+			<m:MaterialPanel textAlign="LEFT" paddingLeft="500" paddingRight="500" paddingTop="100" ui:field="mp">
+				<m:MaterialTextBox  ui:field="t1" placeholder="Email_id" iconType="ACCOUNT_CIRCLE"></m:MaterialTextBox>
+				<m:MaterialTextBox ui:field="t2" placeholder="Password" type="PASSWORD" iconType="HTTPS"></m:MaterialTextBox>
+			</m:MaterialPanel>
+		
+			<m:MaterialPanel textAlign="CENTER">
+			<m:MaterialRow>
+			<m:MaterialButton ui:field="b1" text="Login" waves="LIGHT" backgroundColor="BLUE" textColor="WHITE" iconType="DEFAULT" iconPosition="RIGHT"/>
+			</m:MaterialRow>		
+		</m:MaterialPanel>
+	</m:MaterialPanel>
+	</g:HTMLPanel>
+	
+<!-- 	<g:HTMLPanel>
+	
+		<m:MaterialTextArea ui:field="t1" type="EMAIL"  label="email" width="600px" iconType="FACE" />
+	     <m:MaterialTextArea ui:field="t2"    type="PASSWORD"  label="Password" width="600px" />
+	     <m:MaterialButton ui:field="b1" waves="LIGHT" text="Log In" width="600px" /> 
+	</g:HTMLPanel> --> 
+	
+</ui:UiBinder> 

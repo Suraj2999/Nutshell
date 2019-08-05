@@ -1,0 +1,30 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:m="urn:import:gwt.material.design.client.ui"
+	xmlns:m.html="urn:import:gwt.material.design.client.ui.html">
+
+<g:VerticalPanel>
+	<m:MaterialPanel textAlign="LEFT" paddingLeft="300" paddingRight="300" paddingTop="50">
+		<m:MaterialListBox placeholder="Choose Category" grid="s10" ui:field="category">
+        <m.html:Option  text="sports"/>
+        <m.html:Option text="business"/>
+        <m.html:Option text="politics"/>
+        <m.html:Option text="entertainment"/>
+        <m.html:Option text="social"/>
+        <m.html:Option text="international"/>
+        <m.html:Option text="technology"/>
+        <m.html:Option text="fashion"/>
+        <m.html:Option text="travel"/>
+        <m.html:Option text="hatke"/>																																																																																																			
+      	</m:MaterialListBox>
+
+		<m:MaterialTextBox ui:field ="t1" label="   Images" /> 
+	   	<m:MaterialButton ui:field="b1" text="Insert Image" waves="RED" backgroundColor="WHITE" textColor="BLACK" iconType="ADD_CIRCLE" iconPosition="LEFT" iconColor="RED"/>
+		<m:MaterialTextBox ui:field ="t2" label="   Headlines"/> 
+	 	<m:MaterialTextBox ui:field="t3" label="   #Tag"  /> 
+		<m:MaterialTextArea ui:field="t4" label="   Long News" length="1200"/> 
+	 	<m:MaterialButton ui:field="b2" text="ADD NEWS" waves="RED" backgroundColor="WHITE" textColor="BLACK" iconType="ADD_CIRCLE" iconPosition="LEFT" iconColor="RED"/> 
+	</m:MaterialPanel>
+	</g:VerticalPanel>
+</ui:UiBinder> 

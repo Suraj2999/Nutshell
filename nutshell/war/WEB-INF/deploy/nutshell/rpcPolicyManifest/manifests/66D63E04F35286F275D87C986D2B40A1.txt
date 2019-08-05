@@ -1,0 +1,2 @@
+serviceClass: com.nutshell.client.GreetingService
+path: 5B3F872C14475EC9863FA2B75C554D9B.gwt.rpc

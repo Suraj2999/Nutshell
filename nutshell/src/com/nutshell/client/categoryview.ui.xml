@@ -1,0 +1,76 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:m="urn:import:gwt.material.design.client.ui">
+	
+	<m:MaterialRow addStyleNames="code">
+      <m:MaterialRow>
+        <m:MaterialTitle title="Categories" />
+        <m:MaterialColumn grid="l3">
+          <m:MaterialCard backgroundColor="WHITE">
+            <m:MaterialCardImage waves="LIGHT">
+             <!--  <m:MaterialImage url="https://gwtmaterialdesign.github.io/gwt-material-demo/images/wind-mill.gif" /> -->
+            </m:MaterialCardImage>
+
+            <m:MaterialCardContent textColor="BLACK">
+              <m:MaterialCardTitle text="Politics" iconType="MORE_VERT" iconPosition="RIGHT" textColor="BLACK"/>
+            </m:MaterialCardContent>
+
+            <m:MaterialCardReveal>
+              <m:MaterialCardTitle text="Politics" iconType="CLOSE" iconPosition="RIGHT" textColor="BLACK"/>
+              <m:MaterialLabel text="Here is some more information about this product that is only revealed once clicked on." />
+            </m:MaterialCardReveal>
+
+            <!-- <m:MaterialCardAction>
+              <m:MaterialLink text="Link 1" textColor="BLUE" />
+              <m:MaterialLink text="Link 1" textColor="BLUE" />
+            </m:MaterialCardAction> -->
+          </m:MaterialCard>
+        </m:MaterialColumn>
+
+        <m:MaterialColumn grid="l3">
+          <m:MaterialCard backgroundColor="WHITE">
+            <m:MaterialCardImage waves="LIGHT">
+              <!-- <MaterialImage url="https://gwtmaterialdesign.github.io/gwt-material-demo/images/shoes.webp" fallbackExtension="png"/> -->
+            </m:MaterialCardImage>
+
+            <m:MaterialCardContent textColor="BLACK">
+              <m:MaterialCardTitle text="Business" iconType="MORE_VERT" iconPosition="RIGHT" textColor="BLACK"/>
+            </m:MaterialCardContent>
+
+            <m:MaterialCardReveal>
+              <m:MaterialCardTitle text="Business" iconType="CLOSE" iconPosition="RIGHT" textColor="BLACK"/>
+              <m:MaterialLabel text="Here is some more information about this product that is only revealed once clicked on." />
+            </m:MaterialCardReveal>
+
+            <!-- <m:MaterialCardAction>
+              <m:MaterialLink text="Link 1" textColor="BLUE"/>
+              <m:MaterialLink text="Link 1" textColor="BLUE"/>
+            </m:MaterialCardAction>
+ -->          </m:MaterialCard>
+        </m:MaterialColumn>
+
+        <m:MaterialColumn grid="l3">
+          <m:MaterialCard backgroundColor="WHITE">
+            <m:MaterialCardImage waves="LIGHT">
+              <!-- <m:MaterialImage url="https://gwtmaterialdesign.github.io/gwt-material-demo/images/md.gif"/> -->
+            </m:MaterialCardImage>
+
+            <m:MaterialCardContent textColor="BLACK">
+              <m:MaterialCardTitle text="Sports" iconType="MORE_VERT" iconPosition="RIGHT" textColor="BLACK"/>
+            </m:MaterialCardContent>
+
+            <m:MaterialCardReveal>
+              <m:MaterialCardTitle text="Sports" iconType="CLOSE" iconPosition="RIGHT" textColor="BLACK"/>
+              <m:MaterialLabel text="Here is some more information about this product that is only revealed once clicked on." />
+            </m:MaterialCardReveal>
+
+            <!-- <m:MaterialCardAction>
+              <m:MaterialLink text="Link 1" textColor="BLUE"/>
+              <m:MaterialLink text="Link 1" textColor="BLUE"/>
+            </m:MaterialCardAction> -->
+          </m:MaterialCard>
+        </m:MaterialColumn>
+      </m:MaterialRow>
+    </m:MaterialRow>
+</ui:UiBinder> 

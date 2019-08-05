@@ -1,0 +1,18 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:m="urn:import:gwt.material.design.client.ui">
+	<ui:style>
+	
+	</ui:style>
+	<g:VerticalPanel>
+	<m:MaterialPanel textAlign="LEFT" paddingLeft="300" paddingRight="300" paddingTop="50">
+	<m:MaterialTextArea ui:field="t1" label="Images" resizeRule="FOCUS"/>
+	<m:MaterialTextArea ui:field="t2" label="HeadLine" resizeRule="FOCUS"/>
+	<m:MaterialTextArea ui:field="t3" label="# Tags" resizeRule="FOCUS"/>
+	<m:MaterialTextArea ui:field="t4" label="Short News" resizeRule="FOCUS"/>
+	<m:MaterialButton ui:field="b1" text="Edit" waves="LIGHT" backgroundColor="RED" textColor="WHITE" iconType="POLYMER" iconPosition="RIGHT"/>
+	<m:MaterialButton ui:field="b2" text="Publish" waves="LIGHT" backgroundColor="RED" textColor="WHITE" iconType="POLYMER" iconPosition="RIGHT"/>
+			</m:MaterialPanel>
+</g:VerticalPanel>
+</ui:UiBinder> 
